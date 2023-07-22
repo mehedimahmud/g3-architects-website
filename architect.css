@@ -33,7 +33,7 @@ nav {
     justify-content: space-between;
 }
 
-nav> h3 {
+nav>h3 {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
@@ -76,16 +76,64 @@ nav li {
     text-align: center;
     margin: 0 auto;
 }
+
 /*for small device*/
 
 @media screen and (max-width:576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    nav>ul{
+
+    nav>ul {
         flex-direction: column;
     }
-    header{
+
+    header {
         padding: 20px;
     }
+}
+
+/*main-section*/
+
+main>section {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.feature-banner {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.feature-tittle {
+    color:  #727272;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
+.feature-img {
+    width: 340px;
+}
+
+.feature-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tittle-clr-1 {
+    color: #131313;
+}
+
+.tittle-clr-2 {
+    color: #FF900E;
 }
